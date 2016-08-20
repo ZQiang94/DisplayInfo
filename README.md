@@ -6,3 +6,4 @@ TODO
 
 Des：
 如图：
+<img src="https://github.com/ZQiang94/DisplayInfo/blob/master/device-2016-08-20-115904.png">
