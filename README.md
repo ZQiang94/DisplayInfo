@@ -1,7 +1,7 @@
 # DisplayInfo
 display info of device
 
-#####Download
+####Download
 <div align=center><img src="https://github.com/ZQiang94/DisplayInfo/blob/master/20160820231714.png"/></div><br/>
 
 通过运行DisplayInfo获取当前设备屏幕的尺寸信息，运行效果如图（Honor 7）：
