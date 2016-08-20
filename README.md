@@ -1,7 +1,8 @@
 # DisplayInfo
 display info of device
 
-<img src="https://github.com/ZQiang94/DisplayInfo/blob/master/device-2016-08-20-115904.png" alt="dispalyinfo运行效果">
+通过运行DisplayInfo获取当前设备屏幕的尺寸信息，运行效果如图（Honor 7）：
+<img src="https://github.com/ZQiang94/DisplayInfo/blob/master/device-2016-08-20-115904.png" alt="dispalyinfo在Honor 7上的运行效果">
 
 ######Des:<br/>
 场景：切图是在1080 * 1920的图上进行标注，套图时该如何进行适配。<br/>
