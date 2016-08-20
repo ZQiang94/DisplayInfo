@@ -5,13 +5,22 @@ display info of device
 记录遇到过的机型信息<br/>
 进一步创建相应机型的layout与values资源文件夹(用做测试)<br/>
 
-场景：切图是在1280 *　1920的图上进行标注，套图时该如何进行适配。<br/>
+场景：切图是在1080 * 1920的图上进行标注，套图时该如何进行适配。<br/>
 现在市场主流的两种分辨率类型（分别是1080 * 1920与720 * 1280）,具体的分布情况在下图中展示。
-[查看更详细信息(个推提供)](http://www.getui.com/data-report/equipment-info.html)<br/>
 如图展示的为16年07月份分辨率市场分布情况：
+[查看更详细信息(个推提供)](http://www.getui.com/data-report/equipment-info.html)<br/>
 <img src="https://github.com/ZQiang94/DisplayInfo/blob/master/display_2016-8-20.png"/><br/>
-根据场景中所描述的针对320dpi(720 * 1280)
+下面是分辨率与对应基线的关系图<br/>
 <img src="http://img.ui.cn/data/file/7/9/8/278897.png?imageView2/2/q/90"/><br/>
+通过上图可以看出，场景中给出的在480dpi(1080 * 1920)的标注，要想适配480dpi的手机只需要将切图中的标注除以3即可（切图中的标注是px，需要转换成Android中的dp）。
+想要使用480dpi的标注适配320dpi（720 * 1280），可以使用先将420dpi的设计图缩放成320dpi的设计图，借助ps可以实现。<br/>
+<img src="https://github.com/ZQiang94/DisplayInfo/blob/master/display_00.png"/><br/>
+<img src="https://github.com/ZQiang94/DisplayInfo/blob/master/display_1080-720.png"/>
+<img src="https://github.com/ZQiang94/DisplayInfo/blob/master/display_1920-1280.png"/><br/>
+可以得出，1080 * 1920 缩放为720 * 1280时：<br/>
+width：66.67%    height:79.01%<br/>
+在使用设计图为480dpi(1080 * 1920)适配720 * 1280的时候先按照上述比例计算出720 * 1280的标注然后再除以2。
+
 
 ###基本概念
 ####1.屏幕尺寸：手机实际物理尺寸，一般用英寸来表示（1 英寸 = 2.54 厘米）。
