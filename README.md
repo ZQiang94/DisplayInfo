@@ -1,5 +1,5 @@
 # DisplayInfo
-display info of device
+display info of device<br/>
 Github链接[https://github.com/ZQiang94/DisplayInfo](https://github.com/ZQiang94/DisplayInfo)
 ####Download
 <div align=center><img src="https://github.com/ZQiang94/DisplayInfo/blob/master/20160820231714.png"/></div>
