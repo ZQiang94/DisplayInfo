@@ -23,10 +23,10 @@ TODO
 因为实际240dpi下的分辨率可以和480*800的分辨率共用一套切图资源。）
 
 ####4.单位
-dip:dot per inch，就是每英寸的像素数，也叫做屏幕密度。这个值越大，屏幕就越清晰。
-ppi:#####对Android而言，DPI等价于PPI(Pixels-Per-Inch)
-px：pixels(像素)，屏幕上的点，不同设备不同的显示屏显示效果相同，这是绝对像素，是多少就永远是多少不会改变。
-dp：（andriod开发中用于描述尺寸和间距）与密度无关的像素。
+dip:dot per inch，就是每英寸的像素数，也叫做屏幕密度。这个值越大，屏幕就越清晰。<br/>
+ppi:#####对Android而言，DPI等价于PPI(Pixels-Per-Inch)<br/>
+px：pixels(像素)，屏幕上的点，不同设备不同的显示屏显示效果相同，这是绝对像素，是多少就永远是多少不会改变。<br/>
+dp：（andriod开发中用于描述尺寸和间距）与密度无关的像素。<br/>
 sp：scaled pixels — best for text size (放大像素)（与刻度无关的像素）和dp一样，只是用于描述字号和行距。
 <img src="http://img.ui.cn/data/file/7/9/8/278897.png?imageView2/2/q/90"/>
 
