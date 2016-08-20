@@ -1,7 +1,7 @@
 # DisplayInfo
 display info of device
 
-TODO
+####TODO
 记录遇到过的机型信息<br/>
 进一步创建相应机型的layout与values资源文件夹(用做测试)<br/>
 
