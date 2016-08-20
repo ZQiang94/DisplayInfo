@@ -12,8 +12,8 @@ display info of device
 
 ####2.分辨率：屏幕上显示的像素个数，单位尺寸内像素点越多，显示的图像就越清楚。
 分辨率720*1280表示手机水平方向的像素为720，垂直方向为1280.
-[查看更详细信息(个推提供)](http://www.getui.com/data-report/equipment-info.html)
-如图展示的为16年07月份分辨率市场分布情况：<br/>
+[查看更详细信息(个推提供)](http://www.getui.com/data-report/equipment-info.html)<br/>
+如图展示的为16年07月份分辨率市场分布情况：
 <img src="https://github.com/ZQiang94/DisplayInfo/blob/master/display_2016-8-20.png"/>
 
 ####3.屏幕密度：表示屏幕每英寸有多少个像素。
