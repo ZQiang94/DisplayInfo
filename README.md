@@ -1,6 +1,6 @@
 # DisplayInfo
 display info of device
-
+Github链接[https://github.com/ZQiang94/DisplayInfo](https://github.com/ZQiang94/DisplayInfo)
 ####Download
 <div align=center><img src="https://github.com/ZQiang94/DisplayInfo/blob/master/20160820231714.png"/></div>
 扫描二维码进行下载或者点击[下载](https://github.com/ZQiang94/DisplayInfo/releases/download/v1.0.0/DisplayInfo_v1.0.0.apk)<br/>
@@ -29,6 +29,7 @@ width：66.67%&emsp;&emsp;&emsp;height:79.01%<br/>
 
 
 ###基本概念
+[https://developer.android.com/reference/android/util/DisplayMetrics.html](https://developer.android.com/reference/android/util/DisplayMetrics.html)
 ####1.屏幕尺寸：手机实际物理尺寸，一般用英寸来表示（1 英寸 = 2.54 厘米）。
 手机尺寸计算方式=对角线尺寸/2.54
 <img src="http://img.ui.cn/data/file/5/5/4/127455.png?imageView2/2/q/90"/>
@@ -52,3 +53,4 @@ sp：scaled pixels — best for text size (放大像素)（与刻度无关的像
 ####TODO
 记录遇到过的机型信息<br/>
 进一步创建相应机型的layout与values资源文件夹(用做测试)<br/>
+res下各种文件夹的定义<br/>

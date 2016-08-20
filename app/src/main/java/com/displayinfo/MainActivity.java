@@ -97,7 +97,6 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-
     //获得导航栏的高度
     public int getNavigationBarHeight() {
         Resources resources = getResources();
