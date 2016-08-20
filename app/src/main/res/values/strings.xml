@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">DisplayInfo</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="screen_size_label">Screen Size</string>
+    <string name="screen_size_width">Width (inch):</string>
+    <string name="screen_size_height">Height (inch):</string>
+    <string name="resolution_label">Resolution:</string>
+    <string name="resolution_width">Width (px):</string>
+    <string name="resolution_height">Height (px):</string>
+    <string name="dpi_label">DPI (Dot Per Inch)</string>
+    <string name="dpi_width">Width:</string>
+    <string name="dpi_height">Height:</string>
+    <string name="density_dpi">Density Dpi:</string>
+    <string name="density_label">Density (Resolution / Screen Size)</string>
+    <string name="density">Density:</string>
+    <string name="dip_label">dip/dp (Density independent pixel):</string>
+    <string name="dip_width">Width (dp):</string>
+    <string name="dip_height">Height (dp):</string>
+    <string name="suggestion_label">Suggestion</string>
+    <string name="suggestion_layout">Layout:</string>
+    <string name="suggestion_layout_land">Layout Land:</string>
+    <string name="suggestion_values">Values:</string>
+    <string name="suggestion_values_land">Values Land:</string>
+    <string name="screen_size">ScreenSize(inch):</string>
+
+</resources>
