@@ -3,7 +3,7 @@ display info of device<br/>
 Github链接[https://github.com/ZQiang94/DisplayInfo](https://github.com/ZQiang94/DisplayInfo)
 ####Download
 <div align=center><img src="https://github.com/ZQiang94/DisplayInfo/blob/master/20160820231714.png"/></div>
-扫描二维码进行下载或者点击[下载](https://github.com/ZQiang94/DisplayInfo/releases/download/v1.0.0/DisplayInfo_v1.0.0.apk)<br/>
+扫描二维码进行下载或者点击[下载](https://github.com/ZQiang94/DisplayInfo/releases)<br/>
 <br/>
 通过运行DisplayInfo获取当前设备屏幕的尺寸信息，运行效果如图（Honor 7）：
 <img src="https://github.com/ZQiang94/DisplayInfo/blob/master/device-2016-08-20-115904.png" alt="dispalyinfo在Honor 7上的运行效果"><br/>
