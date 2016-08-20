@@ -1,14 +1,9 @@
 # DisplayInfo
 display info of device
 
-运行效果如图：
-<img src="https://github.com/ZQiang94/DisplayInfo/blob/master/device-2016-08-20-115904.png">
+<img src="https://github.com/ZQiang94/DisplayInfo/blob/master/device-2016-08-20-115904.png" alt="dispalyinfo运行效果">
 
-####TODO
-记录遇到过的机型信息<br/>
-进一步创建相应机型的layout与values资源文件夹(用做测试)<br/>
-
-Des:
+######Des:<br/>
 场景：切图是在1080 * 1920的图上进行标注，套图时该如何进行适配。<br/>
 现在市场主流的两种分辨率类型（分别是1080 * 1920与720 * 1280）,具体的分布情况在下图中展示。
 如图展示的为16年07月份分辨率市场分布情况：
@@ -18,7 +13,7 @@ Des:
 <img src="http://img.ui.cn/data/file/7/9/8/278897.png?imageView2/2/q/90"/><br/>
 通过上图可以看出，场景中给出的在480dpi(1080 * 1920)的标注，要想适配480dpi的手机只需要将切图中的标注除以3即可（切图中的标注是px，需要转换成Android中的dp）。
 想要使用480dpi的标注适配320dpi（720 * 1280），可以使用先将420dpi的设计图缩放成320dpi的设计图，借助ps可以实现。<br/>
-<img src="https://github.com/ZQiang94/DisplayInfo/blob/master/display_00.png"/><br/>
+<div align=center><img src="https://github.com/ZQiang94/DisplayInfo/blob/master/display_00.png"/><br/></div>
 <img src="https://github.com/ZQiang94/DisplayInfo/blob/master/display_1080-720.png"/>
 <img src="https://github.com/ZQiang94/DisplayInfo/blob/master/display_1920-1280.png"/><br/>
 可以得出，1080 * 1920 缩放为720 * 1280时：<br/>
@@ -46,3 +41,7 @@ ppi:#####对Android而言，DPI等价于PPI(Pixels-Per-Inch)<br/>
 px：pixels(像素)，屏幕上的点，不同设备不同的显示屏显示效果相同，这是绝对像素，是多少就永远是多少不会改变。<br/>
 dp：（andriod开发中用于描述尺寸和间距）与密度无关的像素。<br/>
 sp：scaled pixels — best for text size (放大像素)（与刻度无关的像素）和dp一样，只是用于描述字号和行距。
+
+####TODO
+记录遇到过的机型信息<br/>
+进一步创建相应机型的layout与values资源文件夹(用做测试)<br/>
