@@ -2,8 +2,8 @@
 display info of device
 
 通过运行DisplayInfo获取当前设备屏幕的尺寸信息，运行效果如图（Honor 7）：
-<img src="https://github.com/ZQiang94/DisplayInfo/blob/master/device-2016-08-20-115904.png" alt="dispalyinfo在Honor 7上的运行效果">
-通过运行接过可以看出，华为Honor 7的屏幕尺寸（4.94约为5.0），分辨率（Resolution）为1080 * 1920（缺少的为下面的按键），DPI为480dpi等信息。另外还有一些
+<img src="https://github.com/ZQiang94/DisplayInfo/blob/master/device-2016-08-20-115904.png" alt="dispalyinfo在Honor 7上的运行效果"><br/>
+通过运行结果可以看出，华为Honor 7的屏幕尺寸（4.94约为5.0），分辨率（Resolution）为1080 * 1920（缺少的为下面的按键），DPI为480dpi等信息。另外还有一些
 Android适配时需要了解的尺寸限定符，详细讲解见[官方文档对尺寸限定符的解释](https://developer.android.com/training/multiscreen/screensizes.html)。
 
 ####Des:<br/>
