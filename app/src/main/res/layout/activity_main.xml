@@ -341,5 +341,47 @@
                 android:layout_height="wrap_content"
                 android:textColor="#00aaaa"/>
         </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="other"
+            android:textColor="#ff2222"
+            android:textStyle="bold"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="status_bar_height:"/>
+
+            <TextView
+                android:id="@+id/status_bar_height"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#00aaaa"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="navigation_bar_height:"/>
+
+            <TextView
+                android:id="@+id/navigation_bar_height"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#00aaaa"/>
+        </LinearLayout>
+
     </LinearLayout>
 </ScrollView>

@@ -1,8 +1,11 @@
 package com.displayinfo;
 
+import android.content.res.Resources;
+import android.graphics.Rect;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.DisplayMetrics;
+import android.view.Window;
 import android.widget.TextView;
 
 /**
@@ -28,6 +31,8 @@ public class MainActivity extends AppCompatActivity {
     private TextView mSuggestionValues;
     private TextView mSuggestionValuesLand;
     private TextView mSuggestionValuesSimple;
+    private TextView mStatusBaHheight;
+    private TextView mNavigationBarHeight;
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -49,6 +54,8 @@ public class MainActivity extends AppCompatActivity {
         this.mSuggestionValues = (TextView) findViewById(R.id.suggestion_values);
         this.mSuggestionValuesLand = (TextView) findViewById(R.id.suggestion_values_land);
         this.mSuggestionValuesSimple = (TextView) findViewById(R.id.suggestion_values_simple);
+        this.mStatusBaHheight = (TextView) findViewById(R.id.status_bar_height);
+        this.mNavigationBarHeight = (TextView) findViewById(R.id.navigation_bar_height);
 
         /**
          *  A structure describing general information about a display,
@@ -84,8 +91,35 @@ public class MainActivity extends AppCompatActivity {
         this.mSuggestionValues.setText("values" + getSmallestWidthString((int) dipW, (int) dipH) + getResolutionString(dm.widthPixels, dm.heightPixels));
         this.mSuggestionValuesLand.setText("values-land" + getSmallestWidthString((int) dipW, (int) dipH) + getResolutionString(dm.widthPixels, dm.heightPixels));
         this.mSuggestionValuesSimple.setText("values" + getSmallestWidthString((int) dipW, (int) dipH));
+
+        this.mStatusBaHheight.setText(String.valueOf(getStatusBarHeight()));
+        this.mNavigationBarHeight.setText(String.valueOf(getNavigationBarHeight()));
+
     }
 
+
+    //获得导航栏的高度
+    public int getNavigationBarHeight() {
+        Resources resources = getResources();
+        int resourceId = resources.getIdentifier("navigation_bar_height", "dimen", "android"); //获取NavigationBar的高度
+        int height = resources.getDimensionPixelSize(resourceId);
+        return height;
+    }
+
+    //获取状态栏的高度
+    public int getStatusBarHeight() {
+        DisplayMetrics dm = new DisplayMetrics();
+        getWindowManager().getDefaultDisplay().getMetrics(dm);
+        int width = dm.widthPixels;  //屏幕宽
+        int height = dm.heightPixels;  //屏幕高
+        Rect frame = new Rect();
+        getWindow().getDecorView().getWindowVisibleDisplayFrame(frame);
+        int statusBarHeight = frame.top;  //状态栏高
+        int contentTop = getWindow().findViewById(Window.ID_ANDROID_CONTENT).getTop();
+        int titleBarHeight = contentTop - statusBarHeight; //标题栏高
+
+        return titleBarHeight;
+    }
 
     private String densityDpiToString(int densityDpi) {
         String str;
