@@ -17,7 +17,7 @@ display info of device
 <img src="https://github.com/ZQiang94/DisplayInfo/blob/master/display_1080-720.png"/>
 <img src="https://github.com/ZQiang94/DisplayInfo/blob/master/display_1920-1280.png"/><br/>
 可以得出，1080 * 1920 缩放为720 * 1280时：<br/>
-width：66.67%<&nbsp><&nbsp>height:79.01%<br/>
+width：66.67%&emsp;&emsp;&emsp;height:79.01%<br/>
 在使用设计图为480dpi(1080 * 1920)适配720 * 1280的时候先按照上述比例计算出720 * 1280的标注然后再除以2。
 
 
